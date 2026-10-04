@@ -1,0 +1,93 @@
+{
+  "users": {
+    "0911824902": {
+      "userProfile": {
+        "fullName": "Yared Nigusse Teshome",
+        "accountNumber": "1000475184173",
+        "phone": "0911824902",
+        "pin": "1234"
+      },
+      "accounts": [
+        {
+          "id": "cbe-primary",
+          "nameEn": "CBE Saving Account",
+          "nameAm": "የኢትዮጵያ ንግድ ባንክ የቁጠባ ሒሳብ",
+          "accountNumber": "1000475184173",
+          "accountTypeEn": "Saving Account - 1*********4173",
+          "accountTypeAm": "የቁጠባ ሒሳብ - 1*********4173",
+          "balance": 5000000.00,
+          "currency": "ETB",
+          "isPrimary": true
+        },
+        {
+          "id": "cbe-birr",
+          "nameEn": "CBE Birr Wallet",
+          "nameAm": "ንግድ ባንክ ብር (CBE Birr)",
+          "accountNumber": "0911824902",
+          "accountTypeEn": "Mobile Wallet Account",
+          "accountTypeAm": "የሞባይል ዋሌት ሒሳብ",
+          "balance": 14820.5,
+          "currency": "ETB",
+          "isPrimary": false
+        }
+      ],
+      "transactions": [
+        {
+          "id": "FT262277V0S0",
+          "referenceNumber": "FT262277V0S0",
+          "transferMode": "cbe_to_cbe",
+          "accountId": "cbe-primary",
+          "senderName": "Yared Nigusse Teshome",
+          "senderAccount": "ETB-0997",
+          "receiverName": "Mikyas Kassa Birhanu",
+          "receiverAccount": "ETB-8612",
+          "receiverBank": "Commercial Bank of Ethiopia",
+          "amount": 2130,
+          "fee": 1,
+          "vat": 0.15,
+          "currency": "ETB",
+          "type": "outflow",
+          "category": "CBE to CBE Transfer",
+          "timestamp": "2026-10-02T17:17:43.755Z",
+          "status": "completed",
+          "note": "MB Transfer",
+          "channel": "CBE Mobile App",
+          "hash": "0x8f2a1b9c3e4d5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0"
+        }
+      ]
+    },
+    "0912345678": {
+      "userProfile": {
+        "fullName": "Abebe Kebede Wolde",
+        "accountNumber": "1000348291111",
+        "phone": "0912345678",
+        "pin": "1111"
+      },
+      "accounts": [
+        {
+          "id": "cbe-primary",
+          "nameEn": "CBE Saving Account",
+          "nameAm": "የኢትዮጵያ ንግድ ባንክ የቁጠባ ሒሳብ",
+          "accountNumber": "1000348291111",
+          "accountTypeEn": "Saving Account - 1*********1111",
+          "accountTypeAm": "የቁጠባ ሒሳብ - 1*********1111",
+          "balance": 1000000.00,
+          "currency": "ETB",
+          "isPrimary": true
+        },
+        {
+          "id": "cbe-birr",
+          "nameEn": "CBE Birr Wallet",
+          "nameAm": "ንግድ ባንክ ብር (CBE Birr)",
+          "accountNumber": "0912345678",
+          "accountTypeEn": "Mobile Wallet Account",
+          "accountTypeAm": "የሞባይል ዋሌት ሒሳብ",
+          "balance": 0,
+          "currency": "ETB",
+          "isPrimary": false
+        }
+      ],
+      "transactions": []
+    }
+  }
+}

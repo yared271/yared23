@@ -1,0 +1,6 @@
+{
+  "name": "CBE Mobile Banking - የኢትዮጵያ ንግድ ባንክ",
+  "description": "Commercial Bank of Ethiopia (CBE) mobile banking experience with dual transfer modes (CBE to CBE and Other Banks/Telebirr), authentic receipt slip generator, and transaction ledger. Updated for high-fidelity white/purple theme consistency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
